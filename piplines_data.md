@@ -73,3 +73,21 @@ Installation
 ├── H2S_Content
 └── Substance_1
 ```
+结合：
+```
+                    PIPELINE LICENCE
+                           │
+                           │
+              Pipeline_Licence_Number
+                           │
+              ┌────────────┴────────────┐
+              ↓                         ↓
+         PIPELINE                  INSTALLATION
+              │                         │
+              │                         ├── MS
+              │                         ├── MR
+              │                         ├── RS
+              │                         └── CS
+              │
+       H2S / Diameter / MAOP
+```
