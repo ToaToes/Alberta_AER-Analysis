@@ -125,3 +125,36 @@ Prime_Source
         ↓
 Upstream / downstream analysis
 ```
+
+筛选脚本：
+```
+Pipelines.csv
+        +
+Pipeline_Installations.csv
+        +
+Pipeline shapefile
+        +
+Installation shapefile
+              ↓
+        Calgary 150 km
+              ↓
+       Operating only
+              ↓
+        Natural Gas
+              ↓
+   ┌──────────┼──────────┐
+   ↓          ↓          ↓
+   MS         MR         CS
+   ↓          ↓          ↓
+ Meter     Meter/Reg  Compressor
+   │          │          │
+   └──────────┼──────────┘
+              ↓
+       Match Pipeline
+              ↓
+      H2S / Diameter
+      MAOP / Company
+      Prime Source
+              ↓
+    Supply Point Ranking
+```
