@@ -105,7 +105,7 @@ Installation Type =
     MS / MR / CS / RS
         ↓
 STEP 4
-Calgary ≤ 150 km
+Calgary ≤ 300 km
         ↓
 STEP 5
 H2S Content
