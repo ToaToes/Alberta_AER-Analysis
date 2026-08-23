@@ -47,3 +47,29 @@ LINESTRING
 Calgary 距离
 ```
 通常 Shapefile 的 .dbf 中也会带有属性字段，所以不一定需要自己把 CSV 再 join 一次。
+
+```
+Pipeline
+│
+├── Licence_Number
+├── Company_Name
+├── H2S_Content
+├── Substance 1
+├── Diameter
+├── MAOP
+├── From_Facility
+└── To_Facility
+```
+
+```
+Installation
+│
+├── Pipeline_Licence_Number
+├── Pipeline_Installation_ID
+├── Installation_Type
+├── BA_Name
+├── Prime_Source
+├── Installation_Status
+├── H2S_Content
+└── Substance_1
+```
