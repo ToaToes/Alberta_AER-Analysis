@@ -19,3 +19,31 @@ Pipelines_SHP/
 │
 └── *.xml                                  ← metadata
 ```
+
+Pipelines.csv 和 .shp 配合
+
+```
+Pipelines.csv
+      │
+      │ 属性
+      ↓
+Licence_Number
+Company_Name
+H2S_Content
+Substance_1
+Pressure
+Diameter
+...
+      │
+      │
+      ↓
+Pipelines_NAD83_10TM_AEPForest.shp
+      │
+      │ 空间 geometry
+      ↓
+LINESTRING
+      │
+      ↓
+Calgary 距离
+```
+通常 Shapefile 的 .dbf 中也会带有属性字段，所以不一定需要自己把 CSV 再 join 一次。
