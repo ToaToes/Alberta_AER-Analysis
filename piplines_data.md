@@ -91,3 +91,37 @@ Installation
               │
        H2S / Diameter / MAOP
 ```
+
+筛选：
+```
+STEP 1
+Installation Status = Operating
+        ↓
+STEP 2
+Substance_1 = Natural Gas
+        ↓
+STEP 3
+Installation Type =
+    MS / MR / CS / RS
+        ↓
+STEP 4
+Calgary ≤ 150 km
+        ↓
+STEP 5
+H2S Content
+        ↓
+STEP 6
+Pipeline_Licence_Number
+        ↓
+Pipeline
+        ↓
+Diameter
+MAOP
+Company
+Bidirectional
+        ↓
+STEP 7
+Prime_Source
+        ↓
+Upstream / downstream analysis
+```
